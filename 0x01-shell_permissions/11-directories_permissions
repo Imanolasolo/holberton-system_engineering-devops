@@ -1,2 +1,2 @@
 #!/bin/bash
-sudo chmod -m 711 */
+sudo chmod +711 */
