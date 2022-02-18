@@ -2,7 +2,7 @@
 
 <div style="text-align: justify">
 
-Thank you for visiting this repository which contain our work to start learning C language programming. In this project, I learned about hashing by implementing hash functions and hash tables in C.	
+Thank you for visiting this repository which contain my work to start learning bash. In this project, I began working loops and conditionals statemetns in Bash.
 
 
 ![Logo](https://www.howtogeek.com/wp-content/uploads/2021/05/laptop-with-terminal-big.png?height=200p&trim=2,2,2,50)
@@ -25,73 +25,81 @@ This directory contains a collection of files, functions, structs and scripts us
 	
 	Contents:
 
-- What is a hash function
+- How to create SSH keys
 
-- What makes a good hash function
+- What is the advantage of using #!/usr/bin/env bash over #!/bin/bash
 
-- What is a hash table, how do they work and how to use them
+- How to use while, until and for loops
 
-- What is a collision and what are the main ways of dealing with collisions in the context of a hash table
+- How to use if, else, elif and case condition statements
 
-- What are the advantages and drawbacks of using hash tables
+- How to use the cut command
 
-- What are the most common use cases of hash tables
+- What are files and other comparison operators, and how to use them
 	
 ## Dependences 
 	
-> [hash_tables.h](https://github.com/Imanolasolo/holbertonschool-low_level_programming/blob/main/0x18-dynamic_libraries/main.h) --> Header file containing all functions involved in project.
+> [0-RSA_public_key.pub](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/0-RSA_public_key.pub) --> Create a RSA key pair.
 
-> [README.md](https://github.com/Imanolasolo/holbertonschool-low_level_programming/blob/main/0x18-dynamic_libraries/README.md) ---> README file to show the project insights. 
+> [README.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/README.md) ---> README file to show the project insights. 
 
->[0-hash_table_create.c](https://github.com/Imanolasolo/holbertonschool-low_level_programming/blob/main/0x18-dynamic_libraries/libdynamic.so) ---> function that creates a hash table.
+>[1-for_best_school](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/1-for_best_school) ---> Bash script that displays Best School 10 times.
 
->[1-djb2.c](https://github.com/Imanolasolo/holbertonschool-higher_level_programming/blob/master/0x04-python-more_data_structures/2-uniq_add.py) ---> hash function implementing the djb2 algorithm.
+>[2-while_best_school](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/2-while_best_school) ---> Bash script that displays Best School 10 times.
 
->[2-key_index.c]() --> function that gives you the index of a key.
+>[3-until_best_school](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/3-until_best_school) --> Bash script that displays Best School 10 times.
 
->[3-hash_table_set.c]() --> function that adds an element to the hash table.
+>[4-if_9_say_hi](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/4-if_9_say_hi) --> Bash script that displays Best School 10 times, but for the 9th iteration, displays Best School and then Hi on a new line.
 
->[4-hash_table_get.c]() --> function that retrieves a value associated with a key.
+>[5-4_bad_luck_8_is_your_chance](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/5-4_bad_luck_8_is_your_chance) --> Bash script that loops from 1 to 10 and:
 
->[5-hash_table_print.c]() --> function that prints a hash table.
+displays `bad luck` for the 4th loop iteration
 
->[6-hash_table_delete.c]() --> function that deletes a hash table. 
+displays `good luck` for the 8th loop iteration
 
->[100-sorted_hash_table.c]() --> Rewrite the previous functions using these data structures:
+displays `Best School` for the other iterations
 
-```
-shash_table_t *shash_table_create(unsigned long int size);
+>[6-superstitious_numbers](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/6-superstitious_numbers) --> Write a Bash script that displays numbers from 1 to 20 and:
 
-int shash_table_set(shash_table_t *ht, const char *key, const char *value);
+displays `4 and then bad luck from China` for the 4th loop iteration
 
-char *shash_table_get(const shash_table_t *ht, const char *key);
+displays `9 and then bad luck from Japan` for the 9th loop iteration
 
-void shash_table_print(const shash_table_t *ht);
+displays `17 and then bad luck from Italy` for the 17th loop iteration
 
-void shash_table_print_rev(const shash_table_t *ht);
+>[7-clock](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/7-clock) --> Bash script that displays the time for 12 hours and 59 minutes 
 
-void shash_table_delete(shash_table_t *ht);
-```
+>[8-for_ls](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/8-for_ls) --> Write a Bash script that displays:
+
+The content of the current directory
+
+In a list format
+
+Where only the part of the name after the first dash is displayed (refer to the example)
+
+>[9-to_file_or_not_to_file](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/9-to_file_or_not_to_file) --> Bash script that gives you information about the school file.
+
+>[10-fizzbuzz](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/10-fizzbuzz) --> Bash script that displays numbers from 1 to 100.
+
+>[100-read_and_cut](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/100-read_and_cut) --> Bash script that displays the content of the file /etc/passwd
+
+>[101-tell_the_story_of_passwd](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/101-tell_the_story_of_passwd) --> Bash script that displays the content of the file /etc/passwd, using the while loop + IFS.
+
+>[102-lets_parse_apache_logs](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/102-lets_parse_apache_logs) --> Bash script that displays the visitor IP along with the HTTP status code from the Apache log file.
+
+>[103-dig_the-data](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x04-loops_conditions_and_parsing/103-dig_the-data) --> Bash script that groups visitors by IP and HTTP status code, and displays this data.
 
 ## Installing, compiling and using
 	
-> Only install cloning this repository on your local device:  https://github.com/Imanolasolo/holbertonschool-low_level_programming.git
+> Only install cloning this repository on your local device:  https://github.com/Imanolasolo/holberton-system_engineering-devops.git
 	
-> Compile the .c files with `gcc` using ` -Wall -Werror -Wextra -pedantic -std=gnu89`
+> Make the files executable with `chmod +x *(or filename)`
 	
 > Run the executable files with `./` 
 
 ## Builtins
-```
-hash_table_t *hash_table_create(unsigned long int size);
-unsigned long int hash_djb2(const unsigned char *str);
-unsigned long int key_index(const unsigned char *key, unsigned long int size);
-int hash_table_set(hash_table_t *ht, const char *key, const char *value);
-char *hash_table_get(const hash_table_t *ht, const char *key);
-void hash_table_print(const hash_table_t *ht);
-void hash_table_delete(hash_table_t *ht);
 
-```
+No builtins created
 		
 ## Man page
 
@@ -105,11 +113,27 @@ void hash_table_delete(hash_table_t *ht);
 
 **Read or watch**:
 
-[What is a HashTable Data Structure - Introduction to Hash Tables , Part 0](https://intranet.hbtn.io/rltoken/uodWZz-2jyHReOeToaLNdQ)
+[Loops sample](https://intranet.hbtn.io/rltoken/XnVjFM8a1W4RfRu4TCPY-g)
 
-[Hash function](https://intranet.hbtn.io/rltoken/YiFi_oMjd9cZ4VepsS2RKQ)
+[Variable assignment and arithmetic](https://intranet.hbtn.io/rltoken/IM0Gv6VPzwAmqzlJxETZkw)
 
-[Hash table](https://intranet.hbtn.io/rltoken/Kswyyb1f2JY3dn-3TEckUQ)
+[Comparison operators](https://intranet.hbtn.io/rltoken/K3E6xI9-goDM-93vsjCpPA)
+
+[File test operators](https://intranet.hbtn.io/rltoken/0OZLLDT28KrRZdid-l6hwg)
+
+[Make your scripts portable](https://intranet.hbtn.io/rltoken/Dyrnap2UC-LrzrmCOJRx8A)
+
+man or help:
+```
+
+env
+cut
+for
+while
+until
+if
+
+```
 
 
 ## Usage
