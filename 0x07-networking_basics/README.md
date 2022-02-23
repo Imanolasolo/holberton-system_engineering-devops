@@ -57,7 +57,7 @@ This directory contains a collection of files, functions, structs and scripts us
 
     > Why IPv6 was created
 
--TCP/UDP
+- TCP/UDP
 
     > What are the 2 mainly used data transfer protocols for IP (transfer level on the OSI schema)
 
@@ -72,7 +72,7 @@ This directory contains a collection of files, functions, structs and scripts us
 ## Dependences 
 
 	
-> [0-OSI_model](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/0-simply_match_school.rb) --> Answer to:
+> [0-OSI_model](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/0-OSI_model) --> Answer to:
 
 Questions:
 
@@ -92,9 +92,9 @@ Questions:
 
     3. Randomly
 
-> [README.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/README.md) ---> README file to show the project insights. 
+> [README.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/README.md) ---> README file to show the project insights. 
 
->[1-types_of_network](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/1-repetition_token_0.rb) ---> Answer to:
+>[1-types_of_network](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/1-types_of_network) ---> Answer to:
 
 - What type of network a computer in local is connected to?
 
@@ -120,7 +120,7 @@ Questions:
 
     3. LAN
 
->[2-MAC_and_IP_address](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/2-repetition_token_1.rb) ---> Answer to:
+>[2-MAC_and_IP_address](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/2-MAC_and_IP_address) ---> Answer to:
 
 - What is a MAC address?
 
@@ -138,7 +138,7 @@ Questions:
 
     3. Is a number that network devices use to connect to networks
 
->[3-UDP_and_TCP](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/3-repetition_token_2.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
+>[3-UDP_and_TCP](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/3-UDP_and_TCP) --> Answer to:
 	![image](https://user-images.githubusercontent.com/86312558/155395077-950bf7e1-dd62-484a-88d8-6af9e658cea3.png)
 
 Given the draw, fill the gaps with the answers below.
@@ -162,14 +162,14 @@ Given the draw, fill the gaps with the answers below.
 
 
 
->[4-TCP_and_UDP_ports](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/4-repetition_token_3.rb) --> Bash script that displays listening ports:
+>[4-TCP_and_UDP_ports](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/4-TCP_and_UDP_ports) --> Bash script that displays listening ports:
 
 That only shows listening sockets
 
 That shows the PID and name of the program to which each socket belongs
 
 
->[5-dont_stop_me_now](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/5-beginning_and_end.rb) --> Bash script that pings an IP address passed as an argument.
+>[5-dont_stop_me_now](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/5-is_the_host_on_the_network) --> Bash script that pings an IP address passed as an argument.
 
 Requirements:
 
