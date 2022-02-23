@@ -139,6 +139,8 @@ Questions:
     3. Is a number that network devices use to connect to networks
 
 >[3-repetition_token_2.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/3-repetition_token_2.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
+	![image](https://user-images.githubusercontent.com/86312558/155395077-950bf7e1-dd62-484a-88d8-6af9e658cea3.png)
+
 
 ![image](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/3b6bf4aeca6a0c2de584e7f5d68d11eef57ce205.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220223T162015Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dc1c5e62d7c3243cbd084decc35e441c5aa55e33c65328520e87d99995a777d5)
 
