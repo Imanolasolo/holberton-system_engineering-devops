@@ -78,11 +78,11 @@ Questions:
 
 - What is the OSI model?
 
-1. Set of specifications that network hardware manufacturers must respect
+    1. Set of specifications that network hardware manufacturers must respect
 
-2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
+    2. The OSI model is a conceptual model that characterizes the communication functions of a telecommunication system without regard to their underlying internal structure and technology
 
-3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
+    3. The OSI model is a model that characterizes the communication functions of a telecommunication system with a strong regard for their underlying internal structure and technology
 
 - How is the OSI model organized?
 
@@ -138,41 +138,48 @@ Questions:
 
     3. Is a number that network devices use to connect to networks
 
->[3-repetition_token_2.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/3-repetition_token_2.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
+>[3-UDP_and_TCP](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/3-repetition_token_2.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
 	![image](https://user-images.githubusercontent.com/86312558/155395077-950bf7e1-dd62-484a-88d8-6af9e658cea3.png)
 
+Given the draw, fill the gaps with the answers below.
 
-![image](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/3b6bf4aeca6a0c2de584e7f5d68d11eef57ce205.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220223T162015Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=dc1c5e62d7c3243cbd084decc35e441c5aa55e33c65328520e87d99995a777d5)
+- Which statement is correct for the TCP box:
 
->[4-repetition_token_3.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/4-repetition_token_3.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
+    1. It is a protocol that is transferring data in a slow way but surely
 
-![image](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2020/9/f8dbcb9cf5ae569a8645027dc46e81cb372ce28e.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220223%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220223T162015Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=e000bf87085ef963cd47e22ca255b31fd9e4b045484a7315b0e19f04d0ba536b)
+    2. It is a protocol that is transferring data in a fast way and might loss data along in the process
 
->[5-dont_stop_me_now](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/5-beginning_and_end.rb) --> Ruby script that accepts one argument and pass it to a regular expression matching method.
+- Which statement is correct for the UDP box:
+    1. It is a protocol that is transferring data in a slow way but surely
 
-- The regular expression must be exactly matching a string that `starts with h ends with n and can have any single character in between`
+    2. It is a protocol that is transferring data in a fast way and might loss data along in the process
 
->[6-phone_number.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/6-phone_number.rb) --> The regular expression must match a 10 digit phone number
+- Which statement is correct for the TCP worker:
 
->[7-OMG_WHY_ARE_YOU_SHOUTING.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/7-OMG_WHY_ARE_YOU_SHOUTING.rb) --> The regular expression must be only matching: capital letters
+    1. Have you received boxes x, y, z?
 
->[100-textme.rb](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/100-textme.rb) --> ne afternoon, a TextMe VoIP Engineer comes to you and explains she wants to run some statistics on the TextMe app text messages transactions.
+    2. May I increase the rate at which I am sending you boxes?
 
-Your script should output: [SENDER],[RECEIVER],[FLAGS]
 
-The sender phone number or name (including country code if present)
 
-The receiver phone number or name (including country code if present)
+>[4-TCP_and_UDP_ports](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/4-repetition_token_3.rb) --> Bash script that displays listening ports:
 
-The flags that were used
+That only shows listening sockets
 
->[101-passed_linkedin_regex_challenge.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/101-passed_linkedin_regex_challenge.jpg) -->  One way to get started in getting a Software Engineering job at LinkedIn is to solve their regex puzzle.
+That shows the PID and name of the program to which each socket belongs
+
+
+>[5-dont_stop_me_now](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x06-regular_expressions/5-beginning_and_end.rb) --> Bash script that pings an IP address passed as an argument.
 
 Requirements:
 
-Solve LinkedIn regex puzzle: https://engineering.linkedin.com/puzzle
+Accepts a string as an argument
 
-Provide as an answer file a screenshot of the “Congratulations” screen with the date and time of completion
+Displays Usage: 5-is_the_host_on_the_network {IP_ADDRESS} if no argument passed
+
+Ping the IP 5 times
+
+
 
 
 ## Installing, compiling and using
@@ -199,15 +206,39 @@ No builtins created
 
 **Read or watch**:
 
-[Regular expressions - basics](https://intranet.hbtn.io/rltoken/SJ2eQ7V2iQlCgLc-L96zWg)
+- [OSI model](https://intranet.hbtn.io/rltoken/ERGikvYsVP3sa9ZdlAAV4w)
 
-[Regular expressions - advanced](https://intranet.hbtn.io/rltoken/qyjWL-J1_qUaZGR690gH1Q)
+- [Different types of network](https://intranet.hbtn.io/rltoken/H2peG3mV1MDDEK9c9FpGjA)
 
-[Rubular is your best friend](https://intranet.hbtn.io/rltoken/WCjn8NgohbQ5NGXEObWZvQ)
+- [LAN network](https://intranet.hbtn.io/rltoken/GLVy5U4Ja4c2BnKYDPwT5Q)
 
-[Use a regular expression against a problem: now you have 2 problems](https://intranet.hbtn.io/rltoken/Zfvv_ydOCvJ_YaBB6eDqVw)
+- [WAN network](https://intranet.hbtn.io/rltoken/IghQOBbQi3Y-H82l3s9ERg)
 
-[Learn Regular Expressions with simple, interactive exercises](https://intranet.hbtn.io/rltoken/Y-OVGcJ5cskdXWIBowiE_A)
+- [Internet](https://intranet.hbtn.io/rltoken/osfQ04v-6oWuX4LdcpMYfQ)
+
+- [MAC address](https://intranet.hbtn.io/rltoken/DjY02-vo10kphmiYSa2Msg)
+
+- [What is an IP address](https://intranet.hbtn.io/rltoken/_pRm6TVS3zWV_cKg51Gn4Q)
+
+- [Private and public address](https://intranet.hbtn.io/rltoken/Tj1tSxadTHv8kS9Q7lzTpQ)
+
+- [IPv4 and IPv6](https://intranet.hbtn.io/rltoken/dhF14mh64BX6hULm9XPstg)
+
+- [Localhost](https://intranet.hbtn.io/rltoken/uqDHdS73W-CJQakM8vERtQ)
+
+- [TCP and UDP](https://intranet.hbtn.io/rltoken/nOeDjXQrw-N8eFmTBiuzqw)
+
+- [TCP/UDP ports List](https://intranet.hbtn.io/rltoken/nOeDjXQrw-N8eFmTBiuzqw)
+
+- [What is ping /ICMP](https://intranet.hbtn.io/rltoken/OPrB4crHtTLwUynA5YjVNw)
+
+- [Positional parameters](https://intranet.hbtn.io/rltoken/yN_ZinFzBaLXuJhOhKiMfw)
+
+man or help:
+```
+netstat
+ping
+```
 
 
 ## Usage
