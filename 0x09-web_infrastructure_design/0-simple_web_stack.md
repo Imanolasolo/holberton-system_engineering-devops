@@ -1,4 +1,4 @@
-![[0-simple_web_stack.jpeg]]
+ /home/imanol/holberton-system_engineering-devops/0x09-web_infrastructure_design/0-simple_web_stack.jpeg
 
 ## Description
 
