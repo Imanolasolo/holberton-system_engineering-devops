@@ -1,4 +1,5 @@
- /home/imanol/holberton-system_engineering-devops/0x09-web_infrastructure_design/0-simple_web_stack.jpeg
+![image](https://user-images.githubusercontent.com/86312558/157312580-be7d5f42-d645-46be-84e6-b64a26a7ec7e.png)
+
 
 ## Description
 
