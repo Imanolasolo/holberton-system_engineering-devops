@@ -10,13 +10,10 @@ Thank you for visiting this repository which contain my work about to introducin
 <div style="text-align: justify">
 
 ## Table of Contents
-* [AUTHORS](./AUTHORS)
+* [AUTHORS](#authorsblue_book)
 * [MIT License](./LICENSE)
 * [About](#about)
 * [Dependences](#dependences)
-* [Installing, compiling and using](#installing, compiling and using)
-* [Builtins](#builtins)
-* [Man page]
 * [Credits](#credits)
 
 ## About
@@ -177,6 +174,10 @@ Monitoring concept page
 
 Work is owned and maintained by:
 * Imanol Asolo <[3848](mailto:3848@holbertonschool.com)> [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Imanolasolo) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/jjusturi) [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/imanol-asolo-5ba9b42a/)
+	
+* Andres Medina <[3371](mailto:3371@holbertonschool.com)>
+	
+* Carlos Matallana <[3496](mailto:3496@holbertonschool.com)>	
 
 
 ## Acknowledgments :mega: 
