@@ -10,10 +10,13 @@ Thank you for visiting this repository which contain my work about to introducin
 <div style="text-align: justify">
 
 ## Table of Contents
-* [AUTHORS](#authorsblue_book)
+* [AUTHORS](./AUTHORS)
 * [MIT License](./LICENSE)
 * [About](#about)
 * [Dependences](#dependences)
+* [Installing, compiling and using](#installing, compiling and using)
+* [Builtins](#builtins)
+* [Man page]
 * [Credits](#credits)
 
 ## About
@@ -29,13 +32,15 @@ This directory contains a collection of files, functions, structs and scripts us
 
 ## Dependences 
 
->[README.me]() --> README file to show the project insights.
+>[README.me](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/README.md) --> README file to show the project insights.
+
+>[AUTHORS](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/AUTHORS) --> File where project´s authors are appearing.
 	
-> [0-simple_web_stack](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/0-OSI_model) -->File where web direction of design is allocated.
+> [0-simple_web_stack](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/0-simple_web_stack) -->File where web direction of design is allocated.
 
-> [0-simple_web_stack.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/README.md) ---> Design of one server web infrastructure that hosts the website that is reachable via www.foobar.com. 
+> [0-simple_web_stack.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/0-simple_web_stack.jpeg) ---> Design of one server web infrastructure that hosts the website that is reachable via www.foobar.com. 
 
->[0-simple_web_stack.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/1-types_of_network) ---> Extended explanation about one server web infrastructure that hosts the website that is reachable via www.foobar.com.
+>[0-simple_web_stack.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/0-simple_web_stack.md) ---> Extended explanation about one server web infrastructure that hosts the website that is reachable via www.foobar.com.
 
 You must be able to explain some specifics about this infrastructure:
 
@@ -61,11 +66,11 @@ You must be able to explain what the issues are with this infrastructure:
 
 - Cannot scale if too much incoming traffic
 
->[1-distributed_web_infrastructure](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x07-networking_basics/2-MAC_and_IP_address) ---> File where web direction of design is allocated.
+>[1-distributed_web_infrastructure](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/1-distributed_web_infrastructure) ---> File where web direction of design is allocated.
 
->[1-distributed_web_infrastructure.png]() --> Design of a three server web infrastructure that hosts the website www.foobar.com.
+>[1-distributed_web_infrastructure.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/1-distributed_web_infrastructure.jpg) --> Design of a three server web infrastructure that hosts the website www.foobar.com.
 
->[1-distributed_web_infrastructure.md]() --> Extended explanation about three server web infrastructure that hosts the website www.foobar.com.
+>[1-distributed_web_infrastructure.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/1-distributed_web_infraestructure.md) --> Extended explanation about three server web infrastructure that hosts the website www.foobar.com.
 
 You must be able to explain some specifics about this infrastructure:
 
@@ -87,11 +92,11 @@ You must be able to explain what the issues are with this infrastructure:
 
 - No monitoring
 
->[2-secured_and_monitored_web_infrastructure]() --> File where web direction of design is allocated.
+>[2-secured_and_monitored_web_infrastructure](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure) --> File where web direction of design is allocated.
 
->[2-secured_and_monitored_web_infrastructure.png]() --> Design of a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
+>[2-secured_and_monitored_web_infrastructure.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure.jpg) --> Design of a three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
 
->[2-secured_and_monitored_web_infrastructure.md]() --> Extended explanation about three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
+>[2-secured_and_monitored_web_infrastructure.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/2-secured_and_monitored_web_infrastructure.md) --> Extended explanation about three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
 
 You must be able to explain some specifics about this infrastructure:
 
@@ -114,6 +119,24 @@ You must be able to explain what the issues are with this infrastructure:
 - Why having only one MySQL server capable of accepting writes is an issue
 
 - Why having servers with all the same components (database, web server and application server) might be a problem
+
+>[3-scale_up](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/3-scale_up) --> File where web direction of design is allocated.
+
+>[3-scale_up.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/3-scale_up.jpg) --> This web infrastructure is a scaled up version of the infrastructure described [here](2-secured_and_monitored_web_infrastructure.md). In this version, all SPOFs have been removed and each of the major components (web server, application server, and database servers) have been moved to separate GNU/Linux servers.
+
+>[3-scale_up.md](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x09-web_infrastructure_design/3-scale_up.md) --> Extended explanation about three server web infrastructure that hosts the website www.foobar.com, it must be secured, serve encrypted traffic, and be monitored.
+
+You must add:
+
+- 1 server
+
+- 1 load-balancer (HAproxy) configured as cluster with the other one
+
+- Split components (web server, application server, database) with their own server
+
+You must be able to explain some specifics about this infrastructure:
+
+- For every additional element, why you are adding it
 
 ## Installing, compiling and using
 	
@@ -174,11 +197,8 @@ Monitoring concept page
 
 Work is owned and maintained by:
 * Imanol Asolo <[3848](mailto:3848@holbertonschool.com)> [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Octicons-mark-github.svg/25px-Octicons-mark-github.svg.png)](https://github.com/Imanolasolo) [![M](https://upload.wikimedia.org/wikipedia/fr/thumb/c/c8/Twitter_Bird.svg/25px-Twitter_Bird.svg.png)](https://twitter.com/jjusturi) [![M](https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/LinkedIn_logo_initials.png/25px-LinkedIn_logo_initials.png)](https://www.linkedin.com/in/imanol-asolo-5ba9b42a/)
-	
-* Andres Medina <[3371](mailto:3371@holbertonschool.com)>
-	
-* Carlos Matallana <[3496](mailto:3496@holbertonschool.com)>	
 
+* Andres Medina <>
 
 ## Acknowledgments :mega: 
 
