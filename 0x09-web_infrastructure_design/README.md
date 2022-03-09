@@ -10,13 +10,10 @@ Thank you for visiting this repository which contain my work about to introducin
 <div style="text-align: justify">
 
 ## Table of Contents
-* [AUTHORS](./AUTHORS)
+* [AUTHORS](#authorsblue_book)
 * [MIT License](./LICENSE)
 * [About](#about)
 * [Dependences](#dependences)
-* [Installing, compiling and using](#installing, compiling and using)
-* [Builtins](#builtins)
-* [Man page]
 * [Credits](#credits)
 
 ## About
