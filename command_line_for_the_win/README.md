@@ -34,9 +34,9 @@ Complete the first 9 tasks.
  
 * Files:
 
-[0-first_9_tasks.jpg]() --> Screenshot for 1st 9 exercises
+[0-first_9_tasks.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/0-first_9_tasks.jpg) --> Screenshot for 1st 9 exercises
 
-[0-first_9_tasks.png]() --> Screenshot for 1st 9 exercises
+[0-first_9_tasks.png](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/0-first_9_tasks.png) --> Screenshot for 1st 9 exercises
 
 
 ### 1. Reach חי completed tasks
@@ -44,9 +44,10 @@ Complete the first 9 tasks.
 Complete the 9 next tasks, getting to 18 total.
 
 * File:
-[1-next-9-tasks.jpg]() --> Screenshot for 9 to 18 exercises
 
-[1-next-9-tasks.png]() --> Screenshot for 9 to 18 exercises
+[1-next-9-tasks.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/1-next-9-tasks.jpg) --> Screenshot for 9 to 18 exercises
+
+[1-next-9-tasks.png](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/1-next-9-tasks.png) --> Screenshot for 9 to 18 exercises
 
 ### 2. Reach the perfect cube, 27
 
@@ -54,9 +55,9 @@ Complete the 9 next tasks, getting to 27 total.
 
 * File:
 
-[2-last-9-tasks.jpg]() --> Screenshot for 19 to 27 exercises
+[2-last-9-tasks.jpg](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/2-last-9-tasks.jpg) --> Screenshot for 19 to 27 exercises
 
-[2-last-9-tasks.png]() --> Screenshot for 19 to 27 exercises
+[2-last-9-tasks.png](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/command_line_for_the_win/2-last-9-tasks.png) --> Screenshot for 19 to 27 exercises
 
 ## Credits
 
