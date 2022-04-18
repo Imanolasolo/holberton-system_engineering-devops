@@ -78,7 +78,7 @@ Example:
 
 *   GitHub repository: `holberton-system_engineering-devops`
 *   Directory: `0x0A-configuration_management`
-*   File: [0-create_a_file.pp]()
+*   File: [0-create_a_file.pp](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x0A-configuration_management/0-create_a_file.pp)
 
 ### 1\. Install a package
 
@@ -106,7 +106,7 @@ Example:
 
 *   GitHub repository: `holberton-system_engineering-devops`
 *   Directory: `0x0A-configuration_management`
-*   File: [1-install_a_package.pp]()
+*   File: [1-install_a_package.pp](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x0A-configuration_management/1-install_a_package.pp)
 
 ### 2\. Execute a command
 
@@ -151,7 +151,7 @@ Terminal #0 - process has been terminated
 
 *   GitHub repository: `holberton-system_engineering-devops`
 *   Directory: `0x0A-configuration_management`
-*   File: [2-execute_a_command.pp]()
+*   File: [2-execute_a_command.pp](https://github.com/Imanolasolo/holberton-system_engineering-devops/blob/main/0x0A-configuration_management/2-execute_a_command.pp)
 
 ## Installing, compiling and using
 	
