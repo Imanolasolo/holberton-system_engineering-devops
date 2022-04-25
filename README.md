@@ -1,5 +1,7 @@
 ### Holberton-system_engineering-devops.
 
+Document containing different repositories used in the project.
+
 ![Logo](https://www.howtogeek.com/wp-content/uploads/2021/05/laptop-with-terminal-big.png?height=200p&trim=2,2,2,50)
 
 ## Repositories:
