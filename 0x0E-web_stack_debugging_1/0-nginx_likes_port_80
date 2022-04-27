@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 # File:   0-nginx_likes_port_80
-# By: Imanol Asolo
+# By: Imanol Asolo.
 
 #Requirement: Nginx must be running, and listening on port 80 of all the server’s active IPv4 IPs
 #NOTE:The solution: https://stackoverflow.com/questions/16021481/nginx-not-listening-to-port-80
