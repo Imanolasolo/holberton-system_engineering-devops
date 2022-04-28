@@ -7,7 +7,8 @@
 ADD301_REDIRECT="\\\trewrite ^/redirect_me https://www.youtube.com/watch?v=QH2-TGUlwu4 permanent;"
 ADD404_NOTFOUND="\n\\terror_page 404 /404.html;\n\tlocation = /var/www/html/404.html {\n\t\tinternal;\n\t}"
 PATTERN="#error_page 404 /404.html;"
-X_Served_By="\n\tadd_header X-Served-By \$HOSTNAME;"
+ADD_HEADER="\\\tadd_header X-Served-By $HOSTNAME;"
+
 
 sudo apt-get update
 sudo apt-get install -y nginx
@@ -15,6 +16,7 @@ sudo chown -R ubuntu /var/www
 echo "Hello World!" > /var/www/html/index.nginx-debian.html
 sudo sed -i "30i $ADD301_REDIRECT" /etc/nginx/sites-available/default
 echo "Ceci n'est pas une page" > /var/www/html/404.html
-sudo sed -i "47i\ $X_Served_By$PATTERN$ADD404_NOTFOUND" /etc/nginx/sites-available/default
+sudo sed -i "47i\ $PATTERN$ADD404_NOTFOUND" /etc/nginx/sites-available/default
+sudo sed -i "27i $ADD_HEADER" /etc/nginx/sites-available/default
 sudo service nginx restart
 sudo service nginx reload
