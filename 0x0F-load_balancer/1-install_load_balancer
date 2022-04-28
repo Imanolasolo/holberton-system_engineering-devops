@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # Script that configures a load balancer for Ubuntu 20.04
+# By: Imanol Asolo.
 
 sudo apt-get -y update
 sudo apt-get -y upgrade
