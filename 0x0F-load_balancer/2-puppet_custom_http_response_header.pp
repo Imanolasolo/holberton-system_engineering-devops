@@ -1,4 +1,5 @@
 # Add custom HTTP header with Puppet
+# By: Imanol Asolo
 
 exec { 'update':
   command => 'sudo apt-get -y update',
