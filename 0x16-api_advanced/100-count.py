@@ -8,7 +8,7 @@ def count_words(subreddit, word_list):
     GET the word count for each word in word_list.
     Print results in descending order by the count, not the title.
     If no posts match or subreddit is invalid, print a newline.
-    If a word has no matches, skip and do not print it.
+    If a word has no matches, skip and do not print it
     """
     storage = {word.lower(): 0 for word in word_list}
     url = "https://www.reddit.com/r/{}/hot.json".format(subreddit)
