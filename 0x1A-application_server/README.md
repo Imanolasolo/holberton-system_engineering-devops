@@ -3,7 +3,8 @@
 
 This was the application deployment project for our AirBnB clone. In this project, I configured Nginx on the web servers provided me by Holberton School to serve a WSGI Flask app running through Gunicorn. Additionally, I set up an Upstart script to keep the application running on server reboots.
 
-![](https://holbertonintranet.s3.amazonaws.com/uploads/medias/2018/9/c7d1ed0a2e10d1b4e9b3.jpg?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOU5BHMTQX4%2F20220607%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20220607T200429Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=4a60e9785cf31e411ef765d1a9c352bb387553ac54fa70485fadee36fff7ef41)
+![image](https://user-images.githubusercontent.com/86312558/172483488-948478d9-14f0-46d0-a3ef-bd0d49f5b169.png)
+
 
 ### Concepts
 
